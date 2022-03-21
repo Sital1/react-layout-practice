@@ -1,0 +1,45 @@
+export const dummyData = {
+  username:"nafa",
+  first_name: "Meredith",
+  middle_name: "Young ",
+  last_name: "Wehnert",
+  maiden_name: "G",
+  birth_date: "12/12/2012",
+  phone_no: "0144903020",
+  address_line_1: "Grove Street",
+  city: "Sanandreas",
+  state: "California",
+  grad_year: "2013",
+  current_work: "Programmer",
+  achievements: "Made this Profile View Page",
+  bio: "Do we need bio? Is it different from work",
+  profile_picture: "../assets/nafa-logo.png",
+  teams: [
+    {
+      team_name: "Football Elites",
+      category: "Football",
+      year: "2013",
+    },
+    {
+      team_name: "CS GO",
+      category: "E-Sports",
+      year: "2014",
+    },
+  ],
+  relationships: [
+    {
+      first_name: "Hyeon-Jeong",
+      middle_name: "Kapua",
+      last_name: "Terzi",
+      grad_year: "2013",
+      type: "Friend",
+    },
+    {
+      first_name: "Tionge",
+      middle_name: "Willy ",
+      last_name: "Nagarkar",
+      grad_year: "2015",
+      type: "Spouse",
+    },
+  ],
+};

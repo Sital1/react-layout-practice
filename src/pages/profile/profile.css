@@ -1,0 +1,49 @@
+
+.profile-picture {
+    height: 80px;
+    width: 80px;
+    border: solid 1px;
+    object-fit: cover;
+    z-index: 999;
+}
+
+.profile-info{
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+}
+.userShowUsername {
+    font-weight: 600;
+  }
+
+.class-of,.membership-status{
+    font-size: 18px;
+}
+
+.content-title{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.about-detail{
+    font-weight: 600;
+}
+
+
+.banner{
+    height: 25vh;
+    position: relative;
+    background:url("../../assets/EventBannerDefault.jpg") no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: black;
+    height: 100%;
+    opacity: 0.7;
+}

@@ -1,0 +1,28 @@
+.bannerWrapper {
+  height: 80vh;
+  width: 100%;
+  background: url("../../assets/banner.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+.bannerWrapper::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    z-index: 0;
+    opacity: 0.5;
+  }
+
+  .page-caption{
+      z-index: 9999;
+  }
+  
+  .page-caption>p{
+    max-width: 37.5rem;
+}
