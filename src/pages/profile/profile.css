@@ -1,3 +1,7 @@
+.profile-container{
+    overflow: hidden;
+}
+
 
 .profile-picture {
     height: 80px;
@@ -27,16 +31,22 @@
 
 .about-detail{
     font-weight: 600;
+    font-size: 18px;
 }
 
+.about-label{
+    font-size: 18px;
+}
 
 .banner{
-    height: 25vh;
+    height: 15%;
     position: relative;
-    background:url("../../assets/EventBannerDefault.jpg") no-repeat center;
+    background:url("../../assets/school.png") no-repeat center;
     background-size: cover;
-    overflow: hidden;
-    width: 100%;
+    clear: both;
+    margin: 0;
+    overflow-x: hidden;
+    aspect-ratio: 4 / 3;
 }
 
 .banner::before{

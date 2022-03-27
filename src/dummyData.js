@@ -1,4 +1,5 @@
 export const dummyData = {
+  email: "nafauser@email.com",
   username:"nafa",
   first_name: "Meredith",
   middle_name: "Young ",
@@ -26,20 +27,16 @@ export const dummyData = {
       year: "2014",
     },
   ],
-  relationships: [
-    {
-      first_name: "Hyeon-Jeong",
-      middle_name: "Kapua",
-      last_name: "Terzi",
-      grad_year: "2013",
-      type: "Friend",
-    },
-    {
-      first_name: "Tionge",
-      middle_name: "Willy ",
-      last_name: "Nagarkar",
-      grad_year: "2015",
-      type: "Spouse",
-    },
-  ],
+  "relationships": {
+    "id": 11,
+    "relationship_list": [
+        {
+            "id": 2,
+            "relationship_type": "Friends",
+            "name": "Monkey D Luffy",
+            "grad_year": 1998
+        }
+    ],
+    "user": 1
+}
 };

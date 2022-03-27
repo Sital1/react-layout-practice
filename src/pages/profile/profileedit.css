@@ -1,0 +1,14 @@
+.text-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jumbotron {
+  padding: 1rem 15px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: rgb(33, 37, 41);
+  color: white;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 20px -5px black;
+}
