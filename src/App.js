@@ -1,14 +1,14 @@
 import "./App.css";
-import NavBar from "./components/navbar/Navbar";
-import Profile from "./pages/profile/Profile";
-import ProfileEdit from "./pages/profile/ProfileEdit";
+import Notification from "./components/notification/Notification";
+
+import Register from "./pages/Register";
 
 function App() {
   return (
     <div>
-      <NavBar />
 
-      <Profile />
+      {/* <Register title="Registe" a="b" /> */}
+      <Notification />
 
     </div>
   );
